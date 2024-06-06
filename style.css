@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aliceblue;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+}
+
+header .name{
+margin-left: 40px;
+}
+
+.name h1{
+background: radial-gradient( #101166, #32343b);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip:text;
+font-family: "Averia Libre", system-ui;
+}
+
+nav{
+    margin-right: 40px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{  
+    list-style: none;
+}
+
+nav ul li a{
+text-decoration: none;
+font-size: 13px;
+font-weight: bold;
+margin: 10px;
+font-family: "Averia Libre", system-ui;
+background: radial-gradient( #101166, #030303);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip:text;
+}
+
+nav ul li a:hover{
+transition: 0.3s;
+background: radial-gradient( #7667ca, #030303);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip:text;
+}
+
+section{
+    width: 100%;
+    min-height: 650px;
+}
+
+#inicio{
+background-color: #EEEEEE;
+padding: 70px 20px 20px 20px ;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #27374D;
+}
+
+.contenedor-padre{
+    width: 100%;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+}
+
+.cargo-container{
+    width: 500px;
+   min-height: 200px; 
+    margin: 100px 0px 0px 180px;
+}
+
+.cargo-container h1{
+    font-size: 40px;
+    font-family: "Overlock", sans-serif;
+    font-weight: 900;
+    margin-bottom: 30px;
+    background: radial-gradient(#24147a, #18115c, #100e38, #161b5f);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+        
+}
+
+.cargo-container .descripcion{
+width: 100%;
+min-height: auto;
+}
+
+.cargo-container .descripcion span{
+    color: #100e38;
+    font-weight: bold;
+}
+
+.cargo-container .descripcion p{
+    font-family: "Averia Libre";
+    font-size: 14px;
+}
+
+.imagen{
+    width: 250px;
+    height: 300px;
+    margin: 50px 0px 0px 20px; 
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5em;
+}
+
+.skills{
+    width: 360px;
+    height: 70px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 70px 0px 0px 480px; 
+    background-color: #ececec;
+    border-radius: 1.0rem;
+    box-shadow: inset;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.skills h1{
+    font-size: 15px;
+    text-align: center;
+    background: radial-gradient( #101166, #32343b);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    font-family: "Averia Libre", system-ui;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.logos img{
+    height: 35px;
+    width: 35px;
+}
+
+#aboutme{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #DDDDDD;
+}
+
+.about{
+    width: 800px;
+    height: 400;
+    background-color: #EEEEEE;
+    border-radius: 1.5rem;
+    box-shadow: inset;
+    padding: 20px;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.about h1{
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    background: radial-gradient( #101166, #32343b);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    font-family: "Averia Libre", system-ui;
+}
+
+.about p{
+    font-family: "Averia Libre", system-ui;
+    font-size: 14px ;
+}
+
+#projects{
+    background-color: #EEEEEE;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     gap: 40px;
+}
+
+#projects h1{
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    background: radial-gradient( #101166, #32343b);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    font-family: "Averia Libre", system-ui;
+}
+
+.proyecto{
+width: 900px;
+height: 300px;
+background-color: #ececec;
+border-radius: 1.5rem;
+box-shadow: inset;
+padding: 20px;
+box-shadow: 0 10px 6px -6px #777;
+}
+
+#contact{
+background-color: #DDDDDD;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    background-color: #EEEEEE;
+    border-radius: 1.5rem;
+    box-shadow: inset;
+    padding: 20px;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.contact-container h1{
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    background: radial-gradient( #101166, #32343b);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    font-family: "Averia Libre", system-ui;
+}
+
+.contenedor-redes{
+    display: flex;
+} 
+
+.contact-container .redes{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+    margin-left: 40px;
+    width: 100px;
+}
+
+.contact-container .redes i{
+    font-size: 40px;
+    color: #100e38;
+}
+
+.contact-container .redes i:hover{
+    transition: 0.3s;
+    color: #24147a;
+}
+
+.contenedor-redes .address{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 50px 0px 0px 0px;
+}
+
+.address a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Averia Libre", system-ui;
+}
+
+.address a:hover{
+    transition: 0.3s;
+    color: #24147a;
+}
+
